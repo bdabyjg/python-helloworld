@@ -33,7 +33,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: ${{ secrets.toadettek }}
-          password: ${{ secrets.5a23dc88-bd13-4335-b2b8-dda20a4d3ad4}}
+          password: ${{ secrets.5a23dc88-bd13-4335-b2b8-dda20a4d3ad4 }}
       -
         name: Build and push
         uses: docker/build-push-action@v2
