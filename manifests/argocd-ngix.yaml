@@ -11,7 +11,7 @@ spec:
   source:
     # path to the folder with the YAML manifests
     path: manifests
-    repoURL: https://github.com/bdabyjg/argocd
+    repoURL: https://github.com/bdabyjg/python-helloworld.git
     targetRevision: HEAD
   # Sync policy
   syncPolicy: {}
